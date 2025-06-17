@@ -1,4 +1,4 @@
-```
+```groovy
 crear archivo -> touch nombreArchivo
 abrir archivo -> code nombreArchivo
 commit -> git add .
@@ -26,4 +26,4 @@ revertir el commit de la hisoria, sin eliminarlo de la historia, para que lo vea
                               :wq
                               tecla enter
                               git push origin main
-```groovy
+```
