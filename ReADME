@@ -1,0 +1,29 @@
+```
+crear archivo -> touch nombreArchivo
+abrir archivo -> code nombreArchivo
+commit -> git add .
+          git commit -m "Ejercicio 1_1 Modificacion 1 en main"
+          git push origin main
+crear nueva rama -> git checkout -b "rama1"
+
+merge tipo non-fast-forward -> Primero nos vamos a la rama principal: git checkout main
+                              git merge --no-ff rama1
+                              pulssar tecla i
+                              escribir mensaje
+                              tecla escape
+                              :wq
+                              tecla enter
+                              git push origin main
+
+deshacer ultimo commit, desapareciendo de la histria: git reset --hard HEAD~1
+                                                      git push --force origin main
+
+revertir el commit de la hisoria, sin eliminarlo de la historia, para que lo vean los otros:
+                              git revert HEAD
+                              pulssar tecla i
+                              escribir mensaje
+                              tecla escape
+                              :wq
+                              tecla enter
+                              git push origin main
+```groovy
